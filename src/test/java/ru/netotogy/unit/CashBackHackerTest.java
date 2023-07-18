@@ -2,15 +2,10 @@ package ru.netotogy.unit;
 
 import static org.testng.Assert.assertEquals;
 
-
-import org.testng.annotations.Test;
-
-import static org.testng.Assert.*;
-
 public class CashBackHackerTest {
 
     @org.testng.annotations.Test
-    void cash900 () {
+    public void cash900 () {
         CashBackHacker CashBackHacker = new CashBackHacker();
         int amount = 900;
 
